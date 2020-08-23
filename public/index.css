@@ -1,0 +1,147 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.final-page {
+  max-width: 75%;
+}
+
+.landing-section {
+  background-image: url("circle-graphic.png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 28% 36% 36%;
+}
+
+.node-wrapper {
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+
+.story-wrapper {
+
+}
+
+a:link {
+  text-decoration: none;
+  color:#000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.landing {
+  padding-top: 275px;
+  padding-bottom: 275px;
+  margin: auto;
+}
+
+.node-story-wrapper {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.social-grid {
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.node-image {
+  padding-left: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.node-story-container {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border-width: thin;
+  border-color: black;
+}
+
+.node-story {
+  font-size: 44px;
+  margin-bottom: 44px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.button-left {
+  padding: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 75px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.button-right {
+  padding: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 75px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.instructions {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.mega {
+  font-size: 55px;
+  text-align: center;
+}
+
+.story {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.donate {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.share-story {
+  padding: 30px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.bayarea-rm {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.story-wrapper {
+  width: 75%;
+  padding: 10px;
+}
+
+.social {
+  margin: auto;
+}
